@@ -1,0 +1,40 @@
+return {
+    "folke/which-key.nvim",
+    event = "VeryLazy",
+    log_level = "off",
+    ignore_missing = true,
+    init = function()
+        vim.o.timeout = false
+    end,
+
+--    config = function()
+--        require("which-key").setup()
+--        plugins = { spelling = { enabled = true } },
+--        window = {
+--            border = "rounded",
+--            position = "bottom",
+--        },
+--        layout = {
+--            height = { min = 4, max = 25 },
+--            width = { min = 20, max = 50 },
+--            spacing = 3,
+--        },
+--        ignore_missing = true,
+--
+--        local wk = require("which-key")
+--        wk.register({
+--        ["<leader>c"] = { "Color Schemes" },
+--        ["<leader>t"] = { "Open NetRW" },
+--        ["<leader>f"] = { "Git Files" },
+--        ["<leader><tab>"] = { "Buffers" },
+--        ["<leader>g"] = { "Grep" },
+--        ["<leader>u"] = { "Toggle Undo Tree" },
+--        ["<leader>U"] = { "Focus Undo Tree" },
+--        ["<leader><space>"] = { "Find Files" },
+--        ["<leader>l"] = { name = "Git" },
+--        ["<leader>lg"] = { "Lazygit" },
+--        ["<leader>lc"] = { "Git Commits" },
+--        ["<leader>ls"] = { "Git Status" },
+--        })
+--    end,
+}
