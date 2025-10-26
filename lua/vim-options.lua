@@ -72,6 +72,7 @@ vim.cmd([[let netrw_banner=0]])
 vim.g.mapleader = " "
 vim.keymap.set('n', '<leader>t', ':Ex<CR>')
 vim.keymap.set('n', '<leader>lg', ':LazyGit<CR>')
+vim.keymap.set('n', '<leader>ds', ':lua vim.diagnostic.open_float()<CR>')
 -- Navigate vim panes better
 vim.keymap.set('n', '<C-K>', ':wincmd k<CR>')
 vim.keymap.set('n', '<C-J>', ':wincmd j<CR>')
