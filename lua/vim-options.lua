@@ -5,7 +5,6 @@ vim.notify = function(msg, log_level)
   vim.api.nvim_out_write(msg .. "\n")
 end
 
-vim.opt.guicursor = ""
 
 vim.g.formatoptions = "qrn1"
 vim.opt.showmode = false
